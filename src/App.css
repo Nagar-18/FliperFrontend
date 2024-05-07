@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  
+  text-align: center;
+}
+
+
+
+.main {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+
