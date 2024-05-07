@@ -18,7 +18,7 @@ const {user,setUser}=useContext(UserContext);
 const navigate= useNavigate();
   const handlonsubmit= async(e)=>{
    e.preventDefault();
-   const response=await fetch(`http://localhost:5000/api/user/login`,{
+   const response=await fetch(`https://fliper-backend.vercel.app/api/user/login`,{
     method:'POST',
     
     headers:{

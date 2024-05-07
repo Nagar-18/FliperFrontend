@@ -16,7 +16,7 @@ const GetCityOrders = () => {
   const getSetData=async()=>{
 
     
-    const response=await fetch(`http://localhost:5000/api/user`,{
+    const response=await fetch(`https://fliper-backend.vercel.app/api/user`,{
     method:'GET',
     headers:{
       "Content-Type":"application/json"
@@ -39,7 +39,7 @@ const GetCityOrders = () => {
   const getOrderById=async(id)=>{
 
     //get the demo data
-   const response=await fetch(`http://localhost:5000/api/order/getOrder`,{
+   const response=await fetch(`https://fliper-backend.vercel.app/api/order/getOrder`,{
     method:'POST',
     
     headers:{

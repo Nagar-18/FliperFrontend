@@ -9,7 +9,7 @@ const Shipping = () => {
   const getSetData=async()=>{
 
     //get the demo data
-    const response=await fetch(`http://localhost:5000/api/shipping`,{
+    const response=await fetch(`https://fliper-backend.vercel.app/api/shipping`,{
     method:'GET',
     headers:{
       "Content-Type":"application/json"

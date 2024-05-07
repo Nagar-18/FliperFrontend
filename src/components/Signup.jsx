@@ -39,7 +39,7 @@ const id=generateUniqueId();
         alert("Password is not Matched ");
     }
     e.preventDefault();
-    const response= await fetch(`http://localhost:5000/api/user`,{
+    const response= await fetch(`https://fliper-backend.vercel.app/api/user`,{
       method:'POST',
     headers:{
       'content-type':'application/json'

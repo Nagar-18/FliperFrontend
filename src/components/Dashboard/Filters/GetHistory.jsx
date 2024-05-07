@@ -15,7 +15,7 @@ const GetHistory = () => {
 
     const handleOnSubmit=async(e)=>{
            e.preventDefault();
-        const response=await fetch(`http://localhost:5000/api/order/getOrder`,{
+        const response=await fetch(`https://fliper-backend.vercel.app/api/order/getOrder`,{
     method:'POST',
     
     headers:{
